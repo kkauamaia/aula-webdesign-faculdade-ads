@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>São Paulo Futebol Clube</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>São Paulo Futebol Clube</h1>
+        <button onclick="toggleTheme()">Tema</button>
+
+        <div class="font-selector">
+            <label for="font-select">Fonte:</label>
+            <select id="font-select" onchange="changeFont(this.value)">
+                <option value="Arial">Arial</option>
+                <option value="Verdana">Verdana</option>
+                <option value="Courier New">Courier New</option>
+            </select>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#conteudo">Conteúdo</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Bem-vindo ao site sobre o maior campeão de futebol brasileiro!</h2>
+        <p>Saiba mais sobre a história do futebol no Brasil e conheça o maior time do país.</p>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>O futebol brasileiro é uma das maiores paixões do país, com uma história rica e repleta de títulos internacionais.</p>
+        <p>O São Paulo Futebol Clube, fundado em 1930, é um dos clubes mais tradicionais do Brasil. Com conquistas nacionais e internacionais, como a Libertadores e o Mundial de Clubes, o SPFC é um gigante do futebol.</p>
+        <p>Este site foi criado para explorar a história do futebol brasileiro e destacar o São Paulo FC, seus títulos, jogadores icônicos e momentos inesquecíveis.</p>
+    </section>
+
+    <section id="conteudo">
+        <h2>História do Futebol Brasileiro</h2>
+        <p>O futebol chegou ao Brasil no final do século XIX, trazido por Charles Miller. Desde então, o esporte se popularizou e tornou o país uma potência no futebol mundial.</p>
+        <p>O Brasil já conquistou cinco Copas do Mundo (1958, 1962, 1970, 1994 e 2002), tornando-se o maior campeão da competição.</p>
+        <h3>São Paulo FC - Um Gigante do Futebol</h3>
+        <ul>
+            <li>3 Mundiais de Clubes (1992, 1993, 2005)</li>
+            <li>3 Libertadores da América</li>
+            <li>6 Campeonatos Brasileiros</li>
+            <li>22 Campeonatos Paulistas</li>
+        </ul>
+        <p>Além dos títulos, o São Paulo revelou jogadores como Kaká, Rogério Ceni e Raí, ídolos do clube e do futebol mundial.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco:</p>
+        <ul>
+            <li>Email 1: <a href="mailto:kaua.760016@graduacao.fsa.br">kaua.760016@graduacao.fsa.br</a></li>
+            <li>Email 2: <a href="mailto:gabriel.760352@graduacao.fsa.br">gabriel.760352@graduacao.fsa.br</a></li>
+        </ul>
+    </section>
+
+    <section id="imagem">
+        <h2>Sala de Troféus</h2>
+        <ul>
+            <li>Campeonatos brasileiros: 1977, 1986, 1991, 2006, 2007, 2008.</li>
+            <li>Campeonatos estaduais: 1931, 1943, 1945, 1946, 1948, 1949, 1953, 1957, 1970, 1971.</li>
+            <li>Títulos internacionais: 1992, 1993 e 2005.</li> 
+            <li>Taça Mundial e Taça Libertadores da América: 1993.</li>
+            <li>Supercopa da Libertadores: 1994.</li>
+            <li>Copa Conmebol: 1993 e 1994.</li> 
+            <li>Copa Sul-Americana: 2012.</li>
+            <li>Supercopa do Brasil: 2024.</li> 
+            <li>Copa do Brasil: 2023.</li>
+            <li>Torneio Rio-São Paulo 2001.</li> 
+            <li>O São Paulo conquistou a tríplice coroa em 1992 e 2005, e a quádrupla coroa internacional em 1993. O clube é considerado o único time brasileiro que ganhou todos os títulos possíveis, sendo assim, o maior time do país!</li>
+        </ul>
+
+        <img src="imagem.jpg" alt="Imagem" id="imagem-sao-paulo">
+    </section>
+</body>
+</html>
